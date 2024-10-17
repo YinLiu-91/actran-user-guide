@@ -37,6 +37,30 @@
 2. b站 https://www.bilibili.com/video/BV1ZS4y1Y7E4?t=1472.2
 3. 时域内求解宽频带噪声源 ![image](https://github.com/user-attachments/assets/50fb07a3-a459-4bb2-adb6-40d39b20f3e9)
 4. 时域声衬计算https://www.bilibili.com/video/BV1ZS4y1Y7E4?t=1574.7 ![image](https://github.com/user-attachments/assets/37eacdeb-3856-4bd5-a0d3-82782833d6cb)
+5. 增加了涡波控制 ![image](https://github.com/user-attachments/assets/d746441b-609e-4e3b-810f-2224a41c8693) https://www.bilibili.com/video/BV1ZS4y1Y7E4?t=1645.7
+6. 相当于增加了新的求解方程？
+
+# 2021.1
+1. 官网 https://simcompanion.hexagon.com/customers/s/article/Whats-New-Actran-20211
+2. 没有更新dgm相关的？
+
+# 2021
+1. 官网 https://simcompanion.hexagon.com/customers/s/article/What-s-New-in-Actran-2021
+2. 没有相关更新
+3. b站https://www.bilibili.com/video/BV1rU4y147Mo?t=31.0
+
+# 2020
+1. 官网 没有信息
+2. b站 https://www.bilibili.com/video/BV1mE411E7CW?t=60.0
+3. ![image](https://github.com/user-attachments/assets/230f2c06-ef8c-4f3a-baf3-d2f3f314e3cf)
+4. 没有dgm相关信息
+5. 
+# 2017 
+
+# 2016 
+1. 支持gpu https://audioxpress.com/news/New-Actran-16-Release-Delivers-New-Advances-for-Acoustic-Response-in-Bigger-Domains-and-for-Higher-Frequencies
+2. 
+
 
 
 

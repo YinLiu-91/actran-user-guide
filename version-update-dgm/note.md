@@ -88,10 +88,7 @@
 
 # userguide 中对新功能的介绍 Major new features of Actran DGM Release xxx
 ## 总览
-|  2024.2 | 2024.1  | 2020  |  2017 |  15.0 | 13.0  |   |   |
-|---|---|---|---|---|---|---|---|
-|1. Reflection coefficient boundary condition 2. Adding numerical viscosity to control instabilities 3. Green analysis with flow   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
+
 ## 24.1
 1. Reflection coefficient boundary condition
 2. Adding numerical viscosity to control instabilities

@@ -62,6 +62,34 @@
 2. 
 
 
+# user guide的章节信息
+## 13.0
+1. ![image](https://github.com/user-attachments/assets/1804c75f-af61-493c-a269-b21f9c969f46)
+2. 这个theory章为37页
+
+## 15.0
+1. ![image](https://github.com/user-attachments/assets/b207accb-1103-4f73-991c-2dad44a991b3)
+2. 多了一章`Boundary Conditions`
+3. 19章多了一节`19.3 Rotating and non-rotating modes . . . . . . . . . . . . . . . . . . . 271`
+1. 这个theory章为57页
+5. 
+## 17.0
+1. ![image](https://github.com/user-attachments/assets/53c1e68a-ee94-475d-97df-753f302e1db8)
+2. 这个theory章为33页，少了很多
+
+## 20.0
+1. ![image](https://github.com/user-attachments/assets/8fd1e12c-7932-4966-b00f-9403211288cb)
+2. 这个theory章为47页
+   
+## 24.1
+1. ![image](https://github.com/user-attachments/assets/8e1d62bf-61ff-4272-bb49-d704d72f0901)
+2. 这个theory章为70页
+
+
+
+
+
+
 
 
 

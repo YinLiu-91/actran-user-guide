@@ -86,11 +86,39 @@
 2. 这个theory章为70页
 
 
+# userguide 中对新功能的介绍 Major new features of Actran DGM Release xxx
+# 24.1
+1. Reflection coefficient boundary condition
+2. Adding numerical viscosity to control instabilities
+3. Green analysis with flow
 
+# 2020
+1. Multifrequential power evaluation
+2. New definition of mean flow and inclusion of multiple mean flows
+3. Extended GPU acceleration
+4. Various other improvements
 
+# 2017
+1. Integrated Thompson Boundary condition
+2. Zonal Thompson Boundary condition
+1. Integrated BC_MESH Boundary condition
+2. Support of dipoles and quadrupoles
 
+# 2015
+1. Performance improvements
+2. Loadcase and domain multi-parallelism
+3. New admittance formulation
+4. Convergence check
+5. Integrated FWH computation
+6. Transient excitations
+7. Element order selection
 
-
+# 2013
+1. Velocity boundary condition
+2. Thompson boundary condition
+3. Transfer admittance
+4. Multi-parallelism
+5. Selection of output requests
 
 
 

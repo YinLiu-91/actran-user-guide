@@ -87,24 +87,24 @@
 
 
 # userguide 中对新功能的介绍 Major new features of Actran DGM Release xxx
-# 24.1
+## 24.1
 1. Reflection coefficient boundary condition
 2. Adding numerical viscosity to control instabilities
 3. Green analysis with flow
 
-# 2020
+## 2020
 1. Multifrequential power evaluation
 2. New definition of mean flow and inclusion of multiple mean flows
 3. Extended GPU acceleration
 4. Various other improvements
 
-# 2017
+## 2017
 1. Integrated Thompson Boundary condition
 2. Zonal Thompson Boundary condition
 1. Integrated BC_MESH Boundary condition
 2. Support of dipoles and quadrupoles
 
-# 2015
+## 2015
 1. Performance improvements
 2. Loadcase and domain multi-parallelism
 3. New admittance formulation
@@ -113,12 +113,26 @@
 6. Transient excitations
 7. Element order selection
 
-# 2013
+## 2013
 1. Velocity boundary condition
 2. Thompson boundary condition
 3. Transfer admittance
 4. Multi-parallelism
 5. Selection of output requests
-
+### Velocity boundary condition
+This new release includes a velocity boundary condition in Actran DGM. This natural boundary condition should be applied to free faces of a physical component, and can be used to simulate the noise of a body with a prescribed rigid motion in the surrounding acoustic fluid. Further details can be found in Section 8.40.
+这个新的发布版在Actran DGM中包含了一个速度边界条件。这种**自然边界条件**适用于物理部件的自由面，并且可以用来模拟周围声流体中具有规定刚性运动的物体的噪声。进一步的细节可参见第8.40节
+### Thompson boundary condition
+The current revision of Actran DGM includes a Thompson boundary condition. This boundary condition corresponds to a velocity boundary condition with a non reflective condition for incident waves. It can be used to simulate an excitation from a neighboring acoustic component to take into account installation effects on the acoustic radiation by coupling an Actran/TM computation of the near free field with an Actran DGM computation of the installed far field. Further details can be found in Section 8.41.
+目前对Actran DGM的修正包含了Thompson边界条件。该边界条件对应于入射波具有非反射条件的速度边界条件。通过近自由场的Actran / TM计算和远场的Actran DGM计算的耦合，可以用来模拟来自邻近声学部件的激励，以考虑安装对声辐射的影响。进一步的细节可参见第8.41节。
+### Transfer admittance
+This new release includes the specification of transfer admittance between different physical components. Typically, it is used to model the acoustic transmission between two fluid domains, for example perforated sheets or filters, for modelling expansion chambers or non localized treatments. It takes into account the influence of a grazing flow on both faces of the component. Further details can be found in Section 21.4.
+这个新的发布版包含了不同物理部件之间的传输导纳的确定方法。通常，它用于模拟两个流体域之间的声波传输，例如穿孔板或过滤器，用于模拟膨胀腔或非局域声学处理部分。它考虑了一个grazing流对部件两个面的影响。更进一步的细节可以在第21.4节中找到。
+### Multi-parallelism
+In addition to the standard parallel solutions, a dual parallelism is now supported for Actran DGM. It is now possible to combine the azimuthal and domain parallelisms together. More information on how to run a parallel job can be found in Section 12.2.
+除了标准的并行解决方案，Actran DGM现在还支持双重并行。现在可以将周向并行和域并行结合在一起。关于如何运行一个并行作业的更多信息可以在第12.2节中找到。
+### Selection of output requests
+The specification of output request is now available in the current revision of A ctran DGM. This specification allows reducing the size of output files by reducing the number of outputs.
+Actran DGM的当前修订版中提供了输出请求的规范。该规范允许通过减少输出的数量来减少输出文件的大小。
 
 

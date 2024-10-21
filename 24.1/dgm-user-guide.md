@@ -19,9 +19,16 @@
 2. 3D下使用4面体单元
 3. 相邻单元也可以使用不同的单元阶次
 4. 时间步长是全局的(缺点：可以使用局部时间步?)
-5. 
 
-# 16
+# 15 
+# 15.3 Incident field of acoustic sources 入射声源 
+1. 可以分为以下几类：
+   – spherical source (point source)
+   – cylindrical source (line source)
+   – plane wave source.
+1. 注意：入射声源外部必须由buffer zone包裹（或者由pml包裹）
+
+# 16 气动声援
 1. source remapping技术
 
    

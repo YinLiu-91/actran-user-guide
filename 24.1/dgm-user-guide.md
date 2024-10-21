@@ -1,3 +1,11 @@
+
+# 5
+# 5.1
+1. Supported GPUs: NVIDIA Tesla P100, V100 and A100.
+# 10
+## 10.2
+1. 并行分为周向模态并行和区域并行
+2. 
 # 14
 1.![image](https://github.com/user-attachments/assets/60e489e7-a690-41b3-a38a-6468e3ed889d)
 ## 14.1

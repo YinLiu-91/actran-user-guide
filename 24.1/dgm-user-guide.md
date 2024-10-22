@@ -32,16 +32,24 @@
 1. source remapping技术
 ## 16.3 AeroAcoustic Models in ActranDGM (关于声源的模型?)
 1. 不同的方程采用了不同的声源
-### Bogey, Bailly & Juvé model
+### 16.3.1 Bogey, Bailly & Juvé model
 1. 此声源模型适用于LEE方程(16.2a-c) ![image](https://github.com/user-attachments/assets/147b6aa2-1a63-4f87-aa99-501b93743bcf)
 2. 这些声源项是通过给定一个合适的**湍流模型**来求解非稳态NS方程得到的
 3. 这些声源只在LEE方程的动量方程中出现 ![image](https://github.com/user-attachments/assets/c1ff5008-0743-43d5-92ae-6547f9e12797)
 4. 在`VOLUME_SOURCE`数据块中存储，说明是体积源
 5. 参考文献： Computation of flow noise using source terms in linearized euler’s equations
-## 16.2 Turbulent Entropic model
+### 16.3.2 Turbulent Entropic model
 1. 在动量方程和能量方程中都含有声源项
 2. 能量方程的声源项依赖于温度场
-3. 动量方程项与上面的Bailly的完全相同
+3. 动量方程项与上面的Bailly的完全相同 ![image](https://github.com/user-attachments/assets/e4bc1bf4-edd4-42a9-b76e-f2071e49976e)
+
 4. 参考文献：Acoustic source terms for the linearized euler equations in conservative form.
+### 16.3.3 Stochastic Noise Generated Randomly (SNGR) model
+1. ![image](https://github.com/user-attachments/assets/89dc8a16-5479-41d0-b402-7a8fa397ade5)
+2. 与bailly比起来只有声源项不同，
+3. 参考文献：
+   - A stochastic approach to compute subsonic noise using linearized euler’s equations.
+   - Stochastic approach to noise modelling for free turbulent flows.
+
 
    

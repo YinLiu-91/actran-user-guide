@@ -7,7 +7,7 @@
 1. 并行分为周向模态并行和区域并行
 2. 
 # 14
-1.![image](https://github.com/user-attachments/assets/60e489e7-a690-41b3-a38a-6468e3ed889d)
+1.![image](https://github.com/user-attachments/assets/60e489e7-a690-41b3-a38a-6468e3ed889d height="100px")
 ## 14.1 控制方程
 
 1. 等熵LEE (5方程LEE)

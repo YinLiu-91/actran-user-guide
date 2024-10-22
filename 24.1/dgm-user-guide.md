@@ -8,7 +8,8 @@
 2. 
 # 14
 1.![image](https://github.com/user-attachments/assets/60e489e7-a690-41b3-a38a-6468e3ed889d)
-## 14.1
+## 14.1 控制方程
+
 1. 等熵LEE (5方程LEE)
 2. 各向同性LEE(推导自等熵LEE)(4方程)
 1. 方程空间离散阶次为1-16
@@ -19,6 +20,17 @@
 2. 3D下使用4面体单元
 3. 相邻单元也可以使用不同的单元阶次
 4. 时间步长是全局的(缺点：可以使用局部时间步?)
+### 14.1.1 Isentropic Linearized Euler Equations  等熵的LEE
+1. 5个未知量，使用保守形式给出分别为：
+   - 密度 $\rho^{a}$
+   - 动量: $(\rho v_i)^a$ ,包含三个方向的速度
+   - 总能量: $(\rho e_T)^a$
+1. 而对于 $v_i^a$ 则可以由 $v_i^a=\frac{(\rho v_i)^a-\rho^a v_i^0}{\rho^0}$ 求得
+2. 而对于声压 $p^a=-(\gamma-1)\frac{v_k^0v_k^0}{2}\rho^a-(\gamma-1)\rho^0v_k^0v_k^a+(\gamma-1)(\rho e_T)^a$
+1. 方程形式为：![image](https://github.com/user-attachments/assets/52f54e44-b25f-4dd2-b019-659a4ea67894)
+2. 此方程可以求解旋转流中的声传播，还可以求解超声速流下的声传播
+### 14.1.2 Homentropic Linearized Euler Equations
+1. 控制方程 ![image](https://github.com/user-attachments/assets/184de0c4-7686-48ff-ad0b-e9a223cb433b)
 
 # 15 
 # 15.3 Incident field of acoustic sources 入射声源 
